@@ -1,48 +1,53 @@
-# .
+# [RUS] Vue 3 + TypeScript — Коллекция компонентов
 
-This template should help get you started developing with Vue 3 in Vite.
+Учебный проект для портфолио. Демонстрация навыков работы с Vue 3, TypeScript, REST API.
 
-## Recommended IDE Setup
+## Технологии
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- Vue 3 (Composition API, `<script setup>`)
+- TypeScript (интерфейсы, типизация пропсов и событий)
+- Vite (сборка проекта)
+- REST API (jsonplaceholder)
 
-## Recommended Browser Setup
+## Компоненты
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+| Компонент | Описание |
+|-----------|----------|
+| Counter | Счётчик с анимацией и изменением цвета числа |
+| Modal | Модальное окно с затемнением фона и анимацией |
+| TodoList | Список задач с загрузкой данных, добавлением, удалением |
+| Form | Форма с валидацией полей (имя, email, сообщение) |
 
-## Type Support for `.vue` Imports in TS
+## Запуск проекта
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
+```bash
 npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
 npm run dev
-```
 
-### Type-Check, Compile and Minify for Production
+---
 
-```sh
-npm run build
-```
+# [ENG] Vue 3 + TypeScript Component Library
 
-### Lint with [ESLint](https://eslint.org/)
+A portfolio project demonstrating skills with Vue 3, TypeScript, and REST API integration.
 
-```sh
-npm run lint
-```
+## Tech Stack
+
+- Vue 3 (Composition API, `<script setup>`)
+- TypeScript (interfaces, props and events typing)
+- Vite (build tool)
+- REST API (jsonplaceholder)
+
+## Components
+
+| Component | Description |
+|-----------|-------------|
+| Counter | Animated counter with dynamic number color |
+| Modal | Modal window with backdrop blur and animations |
+| TodoList | Task list with data fetching, add, delete, toggle |
+| Form | Form with validation (name, email, message) |
+
+## How to run
+
+```bash
+npm install
+npm run dev
