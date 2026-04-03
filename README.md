@@ -11,21 +11,24 @@
 
 ## Компоненты
 
-- **Counter** — счётчик с анимацией и изменением цвета числа
-- **Modal** — модальное окно с затемнением фона и анимацией
-- **TodoList** — список задач с загрузкой данных, добавлением, удалением
-- **Form** — форма с валидацией полей (имя, email, сообщение)
+- Counter – счётчик с анимацией и изменением цвета числа
+- Modal – модальное окно с затемнением фона и анимацией
+- TodoList – список задач с загрузкой данных, добавлением, удалением
+- Form – форма с валидацией полей (имя, email, сообщение)
 
 ## Запуск проекта
 
 ```bash
 npm install
-npm run dev```
+npm run dev
+```
 
 ## Автор
 
 Арина Агафонова – Frontend Developer
 GitHub: https://github.com/ariiagaf
+
+---
 
 # [ENG] Vue 3 + TypeScript Component Library
 
@@ -49,7 +52,8 @@ A portfolio project demonstrating skills with Vue 3, TypeScript, and REST API in
 
 ```bash
 npm install
-npm run dev```
+npm run dev
+```
 
 ## Author
 
